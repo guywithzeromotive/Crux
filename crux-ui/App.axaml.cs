@@ -1,9 +1,9 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using Crux.Views;
+using MainWindow = crux_ui.Views.MainWindow;
 
-namespace Crux;
+namespace crux_ui;
 
 public partial class App : Application
 {

@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 
-namespace Crux.Views;
+namespace crux_ui.Views;
 
 public partial class MainWindow : Window
 {

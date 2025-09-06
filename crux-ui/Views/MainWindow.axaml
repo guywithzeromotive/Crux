@@ -1,6 +1,6 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        x:Class="Crux.Views.MainWindow"
+        x:Class="crux_ui.Views.MainWindow"
         Title="Crux">
 
     <TextBlock Text="Crux It is I might say" 

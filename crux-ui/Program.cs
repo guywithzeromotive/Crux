@@ -1,5 +1,5 @@
 ﻿using Avalonia;
-using Crux;
+using crux_ui;
 
 public class Program
 {
@@ -10,6 +10,6 @@ public class Program
     private static AppBuilder BuildAvaloniaApp()
         => AppBuilder.Configure<App>()
             .UsePlatformDetect()
-            .WithInterFont()
+            //.WithInterFont()
             .LogToTrace();
 }
