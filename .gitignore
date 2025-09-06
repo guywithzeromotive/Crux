@@ -1,0 +1,59 @@
+# ==============================
+# Rust
+# ==============================
+**/target/
+**/*.rs.bk
+**/*.rmeta
+**/*.dSYM
+
+# ==============================
+# C# / .NET
+# ==============================
+**/bin/
+**/obj/
+[Bb]in/
+[Oo]bj/
+/*.user
+/*.suo
+/*.pdb
+/*.exe
+/*.dll
+/*.app
+/*.cache
+/*.vs
+/Crux.sln
+/global.json
+/*.csproj.user
+
+# ==============================
+# IDEs
+# ==============================
+# JetBrains / Rider
+/.idea/
+/.idea.*
+**/.idea/
+*.iml
+/.idea.Crux.core.idea
+/projectSettingsUpdater.xml
+/indexLayout.xml
+/.idea.CruxUI
+/.idea/rust-core.idea
+
+# VSCode
+.vscode/
+
+# ==============================
+# Data / local files
+# ==============================
+/dataSources/
+/dataSources.local.xml
+HttpRequests/
+
+# ==============================
+# System
+# ==============================
+*.log
+*.tmp
+*.swp
+*.DS_Store
+Thumbs.db

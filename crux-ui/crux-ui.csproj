@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <RootNamespace>crux_ui</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="11.3.5" />
+      <PackageReference Include="Avalonia.Desktop" Version="11.3.5" />
+      <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.5" />
+    </ItemGroup>
+
+</Project>
